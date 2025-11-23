@@ -1,3 +1,5 @@
+<!-- DOCS-AUTOFIX: 2025-11-23T09:20:51.766128+00:00 | Fixed broken links -->
+
 PCRE2 Authorship and Contributors
 =================================
 
@@ -14,7 +16,7 @@ MAINTAINERS
 The PCRE and PCRE2 libraries were authored and maintained by Philip Hazel.
 
 Since 2024, the contributors with administrator access to the project are now
-Nicholas Wilson and Zoltán Herczeg. See the file [SECURITY](./SECURITY.md) for
+Nicholas Wilson and Zoltán Herczeg. See the file [DEAD LINK: SECURITY](./SECURITY.md) <!-- REVIEW: broken relative link --> for
 GPG keys.
 
 Both administrators are volunteers acting in a personal capacity.
