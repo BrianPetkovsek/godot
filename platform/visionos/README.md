@@ -1,11 +1,12 @@
+<!-- DOCS-AUTOFIX: 2025-11-23T08:15:44Z | Fixed relative path references to use absolute repository paths -->
 # visionOS platform port
 
 This folder contains the C++, Objective-C and Objective-C++ code for the visionOS
 platform port.
 
-This platform derives from the Apple Embedded abstract platform ([`drivers/apple_embedded`](drivers/apple_embedded)).
+This platform derives from the Apple Embedded abstract platform ([`drivers/apple_embedded`](/drivers/apple_embedded)).
 
-This platform uses shared Apple code ([`drivers/apple`](drivers/apple)).
+This platform uses shared Apple code ([`drivers/apple`](/drivers/apple)).
 
 See also [`misc/dist/apple_embedded_xcode`](/misc/dist/apple_embedded_xcode) folder for the Xcode
 project template used for packaging the iOS export templates.

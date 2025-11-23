@@ -1,3 +1,4 @@
+<!-- DOCS-AUTOFIX: 2025-11-23T08:15:44Z | Updated version to match version.py (4.6-dev) -->
 # Changelog
 
 This file lists all changes made between the current feature branch and the
@@ -7,12 +8,12 @@ previous feature release. It is equivalent to the listings on our
 Changelogs for earlier feature releases are available in their respective Git
 branches, and linked at the [end of this file](#Past-releases).
 
-## 4.5 - 2025-09-15
+## 4.6 - Development Version (unreleased)
 
-- [Release announcement](https://godotengine.org/releases/4.5/)
-- [Migration guide](https://docs.godotengine.org/en/latest/tutorials/migrating/upgrading_to_godot_4.5.html)
-- [Interactive changelog](https://godotengine.github.io/godot-interactive-changelog/#4.5)
-- [Breaking changes](https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Amerged+label%3A%22breaks+compat%22+milestone%3A4.5)
+- Release announcement: TBD (not yet released)
+- [Migration guide](https://docs.godotengine.org/en/latest/tutorials/migrating/upgrading_to_godot_4.6.html)
+- [Interactive changelog](https://godotengine.github.io/godot-interactive-changelog/#4.6)
+- [Breaking changes](https://github.com/godotengine/godot/pulls?q=is%3Apr+is%3Amerged+label%3A%22breaks+compat%22+milestone%3A4.6)
 
 Table of contents:
 - [2D](#2d)
