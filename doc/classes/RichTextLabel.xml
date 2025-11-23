@@ -662,7 +662,7 @@
 			<param index="0" name="odd_row_bg" type="Color" />
 			<param index="1" name="even_row_bg" type="Color" />
 			<description>
-				Sets color of a table cell. separate colors for alternating rows can be specified.
+				Sets color of a table cell. Separate colors for alternating rows can be specified.
 			</description>
 		</method>
 		<method name="set_cell_size_override">
