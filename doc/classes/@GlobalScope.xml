@@ -2851,7 +2851,7 @@
 			Hints that the property's value is an object encoded as object ID, with its type specified in the hint string. Used by the debugger.
 		</constant>
 		<constant name="PROPERTY_HINT_TYPE_STRING" value="23" enum="PropertyHint">
-			If a property is [String], hints that the property represents a particular type (class). This allows to select a type from the create dialog. The property will store the selected type as a string.
+			If a property is [String], hints that the property represents a particular type (class). This allows you to select a type from the create dialog. The property will store the selected type as a string.
 			If a property is [Array], hints the editor how to show elements. The [code]hint_string[/code] must encode nested types using [code]":"[/code] and [code]"/"[/code].
 			If a property is [Dictionary], hints the editor how to show elements. The [code]hint_string[/code] is the same as [Array], with a [code]";"[/code] separating the key and value.
 			[codeblocks]
@@ -3097,7 +3097,7 @@
 			Flag for a static method.
 		</constant>
 		<constant name="METHOD_FLAG_OBJECT_CORE" value="64" enum="MethodFlags" is_bitfield="true">
-			Used internally. Allows to not dump core virtual methods (such as [method Object._notification]) to the JSON API.
+			Used internally. Allows you to not dump core virtual methods (such as [method Object._notification]) to the JSON API.
 		</constant>
 		<constant name="METHOD_FLAG_VIRTUAL_REQUIRED" value="128" enum="MethodFlags" is_bitfield="true">
 			Flag for a virtual method that is required. In GDScript, this flag is set for abstract functions.

@@ -51,7 +51,7 @@
 				If [param test_only] is [code]true[/code], the body does not move but the would-be collision information is given.
 				[param safe_margin] is the extra margin used for collision recovery (see [member CharacterBody3D.safe_margin] for more details).
 				If [param recovery_as_collision] is [code]true[/code], any depenetration from the recovery phase is also reported as a collision; this is used e.g. by [CharacterBody3D] for improving floor detection during floor snapping.
-				[param max_collisions] allows to retrieve more than one collision result.
+				[param max_collisions] allows you to retrieve more than one collision result.
 			</description>
 		</method>
 		<method name="remove_collision_exception_with">
@@ -83,7 +83,7 @@
 				[param collision] is an optional object of type [KinematicCollision3D], which contains additional information about the collision when stopped, or when touching another body along the motion.
 				[param safe_margin] is the extra margin used for collision recovery (see [member CharacterBody3D.safe_margin] for more details).
 				If [param recovery_as_collision] is [code]true[/code], any depenetration from the recovery phase is also reported as a collision; this is useful for checking whether the body would [i]touch[/i] any other bodies.
-				[param max_collisions] allows to retrieve more than one collision result.
+				[param max_collisions] allows you to retrieve more than one collision result.
 			</description>
 		</method>
 	</methods>

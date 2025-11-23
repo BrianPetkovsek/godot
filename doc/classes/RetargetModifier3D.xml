@@ -68,16 +68,16 @@
 	</members>
 	<constants>
 		<constant name="TRANSFORM_FLAG_POSITION" value="1" enum="TransformFlag" is_bitfield="true">
-			If set, allows to retarget the position.
+			If set, allows you to retarget the position.
 		</constant>
 		<constant name="TRANSFORM_FLAG_ROTATION" value="2" enum="TransformFlag" is_bitfield="true">
-			If set, allows to retarget the rotation.
+			If set, allows you to retarget the rotation.
 		</constant>
 		<constant name="TRANSFORM_FLAG_SCALE" value="4" enum="TransformFlag" is_bitfield="true">
-			If set, allows to retarget the scale.
+			If set, allows you to retarget the scale.
 		</constant>
 		<constant name="TRANSFORM_FLAG_ALL" value="7" enum="TransformFlag" is_bitfield="true">
-			If set, allows to retarget the position/rotation/scale.
+			If set, allows you to retarget the position/rotation/scale.
 		</constant>
 	</constants>
 </class>

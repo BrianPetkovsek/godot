@@ -827,7 +827,7 @@
 			<param index="2" name="offset" type="float" />
 			<param index="3" name="push_opposite_anchor" type="bool" default="false" />
 			<description>
-				Works the same as [method set_anchor], but instead of [code]keep_offset[/code] argument and automatic update of offset, it allows to set the offset yourself (see [method set_offset]).
+				Works the same as [method set_anchor], but instead of [code]keep_offset[/code] argument and automatic update of offset, it allows you to set the offset yourself (see [method set_offset]).
 			</description>
 		</method>
 		<method name="set_anchors_and_offsets_preset">

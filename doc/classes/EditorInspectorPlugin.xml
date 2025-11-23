@@ -63,7 +63,7 @@
 			<param index="5" name="usage_flags" type="int" enum="PropertyUsageFlags" is_bitfield="true" />
 			<param index="6" name="wide" type="bool" />
 			<description>
-				Called to allow adding property-specific editors to the property list for [param object]. The added editor control must extend [EditorProperty]. Returning [code]true[/code] removes the built-in editor for this property, otherwise allows to insert a custom editor before the built-in one.
+				Called to allow adding property-specific editors to the property list for [param object]. The added editor control must extend [EditorProperty]. Returning [code]true[/code] removes the built-in editor for this property, otherwise allows you to insert a custom editor before the built-in one.
 			</description>
 		</method>
 		<method name="add_custom_control">
