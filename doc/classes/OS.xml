@@ -516,7 +516,7 @@
 			<description>
 				Returns the path to commonly used folders across different platforms, as defined by [param dir]. See the [enum SystemDir] constants for available locations.
 				[b]Note:[/b] This method is implemented on Android, Linux, macOS and Windows.
-				[b]Note:[/b] Shared storage is implemented on Android and allows to differentiate between app specific and shared directories, if [param shared_storage] is [code]true[/code]. Shared directories have additional restrictions on Android.
+				[b]Note:[/b] Shared storage is implemented on Android and allows you to differentiate between app specific and shared directories, if [param shared_storage] is [code]true[/code]. Shared directories have additional restrictions on Android.
 			</description>
 		</method>
 		<method name="get_system_font_path" qualifiers="const">

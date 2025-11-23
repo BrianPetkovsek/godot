@@ -94,14 +94,14 @@
 			<return type="void" />
 			<param index="0" name="type" type="int" />
 			<description>
-				Allows to disconnect nodes when dragging from the left port of the [GraphNode]'s slot if it has the specified type. See also [method remove_valid_left_disconnect_type].
+				allows you to disconnect nodes when dragging from the left port of the [GraphNode]'s slot if it has the specified type. See also [method remove_valid_left_disconnect_type].
 			</description>
 		</method>
 		<method name="add_valid_right_disconnect_type">
 			<return type="void" />
 			<param index="0" name="type" type="int" />
 			<description>
-				Allows to disconnect nodes when dragging from the right port of the [GraphNode]'s slot if it has the specified type. See also [method remove_valid_right_disconnect_type].
+				allows you to disconnect nodes when dragging from the right port of the [GraphNode]'s slot if it has the specified type. See also [method remove_valid_right_disconnect_type].
 			</description>
 		</method>
 		<method name="arrange_nodes">

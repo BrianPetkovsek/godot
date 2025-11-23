@@ -19,7 +19,7 @@
 		<method name="apply_floor_snap">
 			<return type="void" />
 			<description>
-				Allows to manually apply a snap to the floor regardless of the body's velocity. This function does nothing when [method is_on_floor] returns [code]true[/code].
+				allows you to manually apply a snap to the floor regardless of the body's velocity. This function does nothing when [method is_on_floor] returns [code]true[/code].
 			</description>
 		</method>
 		<method name="get_floor_angle" qualifiers="const">

@@ -244,28 +244,28 @@
 	</members>
 	<constants>
 		<constant name="TRANSFORM_FLAG_POSITION" value="1" enum="TransformFlag" is_bitfield="true">
-			If set, allows to copy the position.
+			If set, allows you to copy the position.
 		</constant>
 		<constant name="TRANSFORM_FLAG_ROTATION" value="2" enum="TransformFlag" is_bitfield="true">
-			If set, allows to copy the rotation.
+			If set, allows you to copy the rotation.
 		</constant>
 		<constant name="TRANSFORM_FLAG_SCALE" value="4" enum="TransformFlag" is_bitfield="true">
-			If set, allows to copy the scale.
+			If set, allows you to copy the scale.
 		</constant>
 		<constant name="TRANSFORM_FLAG_ALL" value="7" enum="TransformFlag" is_bitfield="true">
-			If set, allows to copy the position/rotation/scale.
+			If set, allows you to copy the position/rotation/scale.
 		</constant>
 		<constant name="AXIS_FLAG_X" value="1" enum="AxisFlag" is_bitfield="true">
-			If set, allows to process the X-axis.
+			If set, allows you to process the X-axis.
 		</constant>
 		<constant name="AXIS_FLAG_Y" value="2" enum="AxisFlag" is_bitfield="true">
-			If set, allows to process the Y-axis.
+			If set, allows you to process the Y-axis.
 		</constant>
 		<constant name="AXIS_FLAG_Z" value="4" enum="AxisFlag" is_bitfield="true">
-			If set, allows to process the Z-axis.
+			If set, allows you to process the Z-axis.
 		</constant>
 		<constant name="AXIS_FLAG_ALL" value="7" enum="AxisFlag" is_bitfield="true">
-			If set, allows to process the all axes.
+			If set, allows you to process the all axes.
 		</constant>
 	</constants>
 </class>

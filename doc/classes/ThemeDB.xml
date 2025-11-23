@@ -19,7 +19,7 @@
 		<method name="get_project_theme">
 			<return type="Theme" />
 			<description>
-				Returns a reference to the custom project [Theme]. This theme resources allows to override the default engine theme for every control node in the project.
+				Returns a reference to the custom project [Theme]. This theme resources allows you to override the default engine theme for every control node in the project.
 				To set the project theme, see [member ProjectSettings.gui/theme/custom].
 			</description>
 		</method>

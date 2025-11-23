@@ -335,7 +335,7 @@
 			HTTP status code [code]307 Temporary Redirect[/code]. The target resource resides temporarily under a different URI and the user agent MUST NOT change the request method if it performs an automatic redirection to that URI.
 		</constant>
 		<constant name="RESPONSE_PERMANENT_REDIRECT" value="308" enum="ResponseCode">
-			HTTP status code [code]308 Permanent Redirect[/code]. The target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs.
+			HTTP status code [code]308 permanent Redirect[/code]. The target resource has been assigned a new permanent URI and any future references to this resource ought to use one of the enclosed URIs.
 		</constant>
 		<constant name="RESPONSE_BAD_REQUEST" value="400" enum="ResponseCode">
 			HTTP status code [code]400 Bad Request[/code]. The request was invalid. The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, invalid request contents, or deceptive request routing).
