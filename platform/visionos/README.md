@@ -1,4 +1,3 @@
-<!-- DOCS-AUTOFIX: 2025-11-23T08:15:44Z | Fixed relative path references to use absolute repository paths -->
 # visionOS platform port
 
 This folder contains the C++, Objective-C and Objective-C++ code for the visionOS

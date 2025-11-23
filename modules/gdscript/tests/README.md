@@ -7,7 +7,6 @@ See the
 [Integration tests for GDScript documentation](https://docs.godotengine.org/en/latest/engine_details/architecture/unit_testing.html#integration-tests-for-gdscript)
 for information about creating and running GDScript integration tests.
 
-<!-- DOCS-AUTOFIX: 2025-11-23T08:15:44Z | Fixed typo: script/completion -> scripts/completion -->
 # GDScript Autocompletion tests
 
 The `scripts/completion` folder contains tests for the GDScript autocompletion.
