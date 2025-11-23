@@ -1,4 +1,4 @@
-<!-- DOCS-AUTOFIX: 2025-11-23T09:20:51.766128+00:00 | Fixed broken links -->
+<!-- DOCS-AUTOFIX: 2025-11-23T09:20:51Z | Fixed broken links -->
 
 # Basic GDScript module architecture
 This provides some basic information in how GDScript is implemented and integrates with the rest of the engine. You can learn more about GDScript in the [documentation](https://docs.godotengine.org/en/latest/tutorials/scripting/gdscript/index.html). It describes the syntax and user facing systems and concepts, and can be used as a reference for what user expectations are.
