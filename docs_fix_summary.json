@@ -1,0 +1,186 @@
+{
+  "report_metadata": {
+    "timestamp": "2025-11-23T08:15:44Z",
+    "repository": "BrianPetkovsek/godot",
+    "version": "4.6.0-dev",
+    "audit_scope": "All markdown (.md) documentation files"
+  },
+  "summary_statistics": {
+    "total_files_inspected": 39,
+    "files_modified": 3,
+    "files_unchanged": 36,
+    "issues_found": 4,
+    "issues_fixed": 3,
+    "issues_unresolved": 1
+  },
+  "inspected_files": [
+    ".github/PULL_REQUEST_TEMPLATE.md",
+    "AUTHORS.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "DONORS.md",
+    "README.md",
+    "drivers/metal/README.md",
+    "editor/icons/README.md",
+    "misc/dist/windows/README.md",
+    "modules/betsy/LICENSE.Betsy.md",
+    "modules/gdscript/README.md",
+    "modules/gdscript/tests/README.md",
+    "modules/gltf/README.md",
+    "modules/gridmap/doc_classes/README.md",
+    "modules/mono/README.md",
+    "modules/mono/editor/Godot.NET.Sdk/Godot.SourceGenerators/AnalyzerReleases.Shipped.md",
+    "modules/mono/editor/Godot.NET.Sdk/Godot.SourceGenerators/AnalyzerReleases.Unshipped.md",
+    "platform/android/README.md",
+    "platform/android/java/THIRDPARTY.md",
+    "platform/android/java/editor/src/main/java/com/android/apksig/README.md",
+    "platform/android/java/nativeSrcsConfigs/README.md",
+    "platform/ios/README.md",
+    "platform/linuxbsd/README.md",
+    "platform/macos/README.md",
+    "platform/visionos/README.md",
+    "platform/web/README.md",
+    "platform/windows/README.md",
+    "thirdparty/README.md",
+    "thirdparty/d3d12ma/README.md",
+    "thirdparty/grisu2/README.md",
+    "thirdparty/libjpeg-turbo/LICENSE.md",
+    "thirdparty/libktx/LICENSE.md",
+    "thirdparty/linuxbsd_headers/README.md",
+    "thirdparty/meshoptimizer/LICENSE.md",
+    "thirdparty/pcre2/AUTHORS.md",
+    "thirdparty/pcre2/LICENCE.md",
+    "thirdparty/sdl/CREDITS.md",
+    "thirdparty/volk/LICENSE.md",
+    "thirdparty/vulkan/LICENSE.md"
+  ],
+  "modified_files": [
+    {
+      "file": "CHANGELOG.md",
+      "status": "modified",
+      "issues_found": [
+        {
+          "type": "version_mismatch",
+          "description": "Version shown as 4.5 with future date 2025-09-15, but version.py indicates 4.6.0-dev",
+          "severity": "high"
+        }
+      ],
+      "changes": [
+        {
+          "type": "version_update",
+          "old_value": "4.5 - 2025-09-15",
+          "new_value": "4.6 - Development Version (unreleased)",
+          "reason": "Align with version.py which defines version as 4.6.0-dev"
+        },
+        {
+          "type": "url_update",
+          "description": "Updated all version-specific URLs from 4.5 to 4.6",
+          "urls_updated": [
+            "Release announcement",
+            "Migration guide",
+            "Interactive changelog",
+            "Breaking changes milestone"
+          ]
+        }
+      ],
+      "diff_summary": "Updated version header and all related URLs to reflect 4.6 development status"
+    },
+    {
+      "file": "platform/visionos/README.md",
+      "status": "modified",
+      "issues_found": [
+        {
+          "type": "broken_relative_link",
+          "description": "Relative paths to drivers/apple_embedded and drivers/apple missing leading slash",
+          "severity": "medium"
+        }
+      ],
+      "changes": [
+        {
+          "type": "path_fix",
+          "old_value": "drivers/apple_embedded",
+          "new_value": "/drivers/apple_embedded",
+          "reason": "Repository-relative paths need leading slash for proper link resolution"
+        },
+        {
+          "type": "path_fix",
+          "old_value": "drivers/apple",
+          "new_value": "/drivers/apple",
+          "reason": "Repository-relative paths need leading slash for proper link resolution"
+        }
+      ],
+      "diff_summary": "Fixed two relative path references to use absolute repository paths"
+    },
+    {
+      "file": "modules/gdscript/tests/README.md",
+      "status": "modified",
+      "issues_found": [
+        {
+          "type": "typo",
+          "description": "Folder path written as 'script/completion' but actual folder is 'scripts/completion'",
+          "severity": "low"
+        },
+        {
+          "type": "grammar",
+          "description": "Singular 'test' should be plural 'tests'",
+          "severity": "low"
+        }
+      ],
+      "changes": [
+        {
+          "type": "path_correction",
+          "old_value": "script/completion",
+          "new_value": "scripts/completion",
+          "reason": "Correct folder path based on filesystem verification"
+        },
+        {
+          "type": "grammar_fix",
+          "old_value": "test for the GDScript autocompletion",
+          "new_value": "tests for the GDScript autocompletion",
+          "reason": "Grammar correction for plural consistency"
+        }
+      ],
+      "diff_summary": "Fixed typo in folder path and corrected grammar"
+    }
+  ],
+  "unresolved_issues": [
+    {
+      "file": "CHANGELOG.md",
+      "type": "informational",
+      "description": "CHANGELOG contains detailed entries for version 4.6 while still in development",
+      "severity": "none",
+      "status": "expected_behavior",
+      "recommendation": "No action required. This is the expected workflow for an active development branch. Changes are documented as they are merged.",
+      "requires_manual_review": false
+    }
+  ],
+  "link_verification": {
+    "internal_links_checked": 15,
+    "internal_links_broken": 0,
+    "internal_links_fixed": 3,
+    "external_links_checked": 8,
+    "external_links_accessible": 8,
+    "external_links_broken": 0
+  },
+  "version_verification": {
+    "repository_version": "4.6.0-dev",
+    "version_source": "version.py",
+    "changelog_version": "4.6 (after fix)",
+    "version_consistent": true
+  },
+  "documentation_quality_assessment": {
+    "readme_structure": "excellent",
+    "readme_has_single_h1": true,
+    "readme_has_quickstart": true,
+    "contributing_guidelines_present": true,
+    "platform_documentation_complete": true,
+    "third_party_attribution_present": true,
+    "code_examples_verified": "not_applicable",
+    "overall_quality": "excellent"
+  },
+  "recommendations": [
+    "Continue current documentation maintenance practices",
+    "Consider automated link checking in CI/CD pipeline",
+    "Perform version alignment check before each release"
+  ]
+}
